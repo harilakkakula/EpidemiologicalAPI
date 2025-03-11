@@ -31,6 +31,10 @@ namespace EpidemiologicalAPI.Controllers
             return Ok(book);
         }
 
+        /// <summary>
+        /// Get the data from Dataset and insert into Mongo
+        /// </summary>
+        /// <returns></returns>
         [HttpPost]
         public async Task<IActionResult> Post()
         {
