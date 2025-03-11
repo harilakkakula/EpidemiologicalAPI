@@ -32,7 +32,7 @@ namespace EpidemiologicalAPI.Controllers
         }
 
         /// <summary>
-        /// Get the data from Dataset and insert into Mongo
+        /// Get the data from Dataset and insert into Mongo DB
         /// </summary>
         /// <returns></returns>
         [HttpPost]
